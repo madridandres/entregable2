@@ -44,9 +44,9 @@ function App() {
           </div>
           <div>
             <ul><h4>"{weather.weather?.[0].description}"</h4>
-              <li><i class="fa-solid fa-wind"></i> Wind speed {weather.wind?.speed} m/s</li>
-              <li><i class="fa-solid fa-cloud"></i> Clouds: {weather.clouds?.all}%</li>
-              <li><i class="fa-solid fa-droplet"></i> Humidity: {weather.main?.humidity}%</li>
+              <li><i className="fa-solid fa-wind"></i> Wind speed {weather.wind?.speed} m/s</li>
+              <li><i className="fa-solid fa-cloud"></i> Clouds: {weather.clouds?.all}%</li>
+              <li><i className="fa-solid fa-droplet"></i> Humidity: {weather.main?.humidity}%</li>
             </ul>
           </div>
         </div>
